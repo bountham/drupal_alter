@@ -1,0 +1,5 @@
+name = Recipe Support Module
+description = custom support module which hides all of the menu tabs except for "URL path settings".
+package = Epicodus Examples
+core = 7.x
+files[] = recipe.module

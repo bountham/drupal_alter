@@ -1,0 +1,5 @@
+name = simply
+description = disply simply contact form
+package = simply
+core = 7.x
+files[]= simply.module

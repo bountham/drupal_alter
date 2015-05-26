@@ -1,0 +1,14 @@
+name = Recipe
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = recipe_feature
+dependencies[] = features
+dependencies[] = recipe
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_base][] = field_instructions
+features[field_instance][] = node-recipe-body
+features[field_instance][] = node-recipe-field_instructions
+features[node][] = recipe
