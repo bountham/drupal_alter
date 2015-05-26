@@ -1,0 +1,16 @@
+<?php
+function vv_custom_follow_networks_alter(&$networks, $uid = 0){
+    //add a network
+    $networks[$uid]['imdb'] = array(
+        'title' => t('IMDB'),
+        'domain' => 'imdb.com',
+
+    );
+
+    $networks[$uid]['drupal'] = array(
+        'title' => t('Drupal.org'),
+        'domain' => 'drupal.org',
+    );
+
+  }
+  drupal_add_css(drupal_get_path('module', 'custom') . 'sites/css/custom.css', array('group' => CSS_DEFAULT, 'every_page' => TRUE));

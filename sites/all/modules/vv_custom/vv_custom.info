@@ -1,0 +1,5 @@
+name = vv_custom
+description = display modules
+package = epicodus examples
+core = 7.x
+files[]= vv_custom.module
